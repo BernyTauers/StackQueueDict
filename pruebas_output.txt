@@ -1,0 +1,36 @@
+
+--- Pruebas Stack ---
+[OK] S1: pila nueva esta vacia
+[OK] S2: pila nueva tiene tamano 0
+[OK] S3: push aumenta el tamano
+[OK] S4: top devuelve el ultimo elemento agregado
+[OK] S5: pop respeta orden LIFO
+[OK] S6: segundo pop devuelve 20
+[OK] S7: clear vacia la pila
+
+--- Pruebas Queue ---
+[OK] Q1: cola nueva esta vacia
+[OK] Q2: cola nueva tiene tamano 0
+[OK] Q3: enqueue aumenta el tamano
+[OK] Q4: front devuelve el primer elemento agregado
+[OK] Q5: dequeue respeta orden FIFO
+[OK] Q6: segundo dequeue devuelve 20
+[OK] Q7: clear vacia la cola
+
+--- Pruebas Dictionary ---
+[OK] D1: diccionario nuevo esta vacio
+[OK] D2: put agrega elementos
+[OK] D3: get recupera el valor correcto
+[OK] D4: contains encuentra una clave existente
+[OK] D5: contains es false para clave inexistente
+[OK] D6: put actualiza una clave existente
+[OK] D7: actualizar una clave no aumenta el tamano
+[OK] D8: remove elimina una clave existente
+[OK] D9: la clave eliminada ya no existe
+[OK] D10: clear vacia el diccionario
+
+==============================
+Pruebas aprobadas: 24
+Pruebas fallidas: 0
+==============================
+Todas las pruebas pasaron correctamente.

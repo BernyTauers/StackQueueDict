@@ -1,0 +1,5 @@
+demo
+pruebas
+*.exe
+*.out
+.DS_Store
